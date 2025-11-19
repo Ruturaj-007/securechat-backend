@@ -1,0 +1,17 @@
+# Dependencies
+node_modules/
+
+# Environment variables (Keep this secret!)
+.env
+
+# OS junk files
+.DS_Store
+
+.idea/
+
+# Ignore node_modules everywhere
+node_modules/
+
+# Ignore JetBrains settings
+.idea/
+*.iml
