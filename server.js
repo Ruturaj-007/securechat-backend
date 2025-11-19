@@ -69,7 +69,7 @@ app.get('/', (req, res) => {
     res.json({ message: 'SecureChat Server Running', activeRooms: rooms.size });
 });
 
-// Giphy search
+// Giphy search feauture
 const fetch = require('node-fetch');
 app.get('/giphy', async (req, res) => {
     const query = req.query.q || 'funny';
